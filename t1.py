@@ -105,15 +105,18 @@ print('=================================')
 
 
 l1 = ['в', '5', 'часов', '17', 'минут', 'температура', 'воздуха', 'была', '+5', 'градусов']
-l2 = []
+# l2 = []
 
-for i in l1:
-    if i.isdigit() or i.startswith('+') or i.startswith('-'):
-        i = int(i)
-        i = f'{i:02d}'
-        l2.append(i)
+# for i in l1:
+#     if i.isdigit() or i.startswith('+') or i.startswith('-'):
+#         i = int(i)
+#         i = f'{i:02d}'
+#         l2.append(i)
 
-    else:
-        l2.append(i)
+#     else:
+#         l2.append(i)
 
-print(l2)
+# print(l2)
+
+
+

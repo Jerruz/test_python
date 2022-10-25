@@ -27,8 +27,8 @@ new_list = []
 
 for i in s_list:
     if i.isdigit() or i.startswith('+') or i.startswith('-'):
-        i = f'{int(i):02d}'
-        new_list.extend(['"', i,'"'])
+        i = f'"{int(i):02d}"'
+        new_list.extend([i])
     else:
         new_list.append(i)
 
