@@ -139,3 +139,6 @@ test_python/Scripts/activate
 test_python/Scripts/Activate.ps1
 test_python/pyvenv.cfg
 test_python/Scripts/deactivate.bat
+
+
+test_python/
