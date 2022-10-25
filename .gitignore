@@ -151,3 +151,15 @@ python_test/Scripts/pip3.10.exe
 python_test/Scripts/pip.exe
 python_test/Scripts/deactivate.bat
 python_test/Scripts/Activate.ps1
+python_test_1/Scripts/pythonw.exe
+python_test_1/Scripts/python.exe
+python_test_1/Scripts/python_d.exe
+python_test_1/Scripts/pythonw_d.exe
+python_test_1/Scripts/pip3.exe
+python_test_1/Scripts/pip3.10.exe
+python_test_1/Scripts/pip.exe
+python_test_1/Scripts/deactivate.bat
+python_test_1/Scripts/Activate.ps1
+python_test_1/Scripts/activate.bat
+python_test_1/Scripts/activate
+python_test_1/pyvenv.cfg
