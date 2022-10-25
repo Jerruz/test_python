@@ -1,5 +1,6 @@
 ﻿from cgi import print_arguments
 import collections
+
 from pickletools import stringnl_noescape_pair
 from typing import Counter
 import sys
@@ -99,3 +100,20 @@ print('=================================')
 # print('довдыожд=======23423423424==========================')
 
 
+# s = "5"
+# print(s.isdigit())
+
+
+l1 = ['в', '5', 'часов', '17', 'минут', 'температура', 'воздуха', 'была', '+5', 'градусов']
+l2 = []
+
+for i in l1:
+    if i.isdigit() or i.startswith('+') or i.startswith('-'):
+        i = int(i)
+        i = f'{i:02d}'
+        l2.append(i)
+
+    else:
+        l2.append(i)
+
+print(l2)

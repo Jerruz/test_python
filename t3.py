@@ -26,13 +26,14 @@ s_list = ['в', '5', 'часов', '17', 'минут', 'температура',
 new_list = []
 
 for i in s_list:
-    if i.isdecimal():
+    if i.isdigit() or i.startswith('+') or i.startswith('-'):
+        i = f'{int(i):02d}'
         new_list.extend(['"', i,'"'])
     else:
         new_list.append(i)
 
 print(new_list)
 
-w = new_list
+w = ' '.join(new_list)
 
-print(' '.join(w))
+print(w)
