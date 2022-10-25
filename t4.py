@@ -9,12 +9,14 @@ emp = ['инженер-конструктор Игорь', 'главный бу�
 
 new_emp = []
 
+
 for i in emp:
-    k = i.split()
-    # print(f'Привет, {k[-1].capitalize()}')
+    k = i.split()[:-1]
+    j = [i.split()[-1].capitalize()]
+    k.extend(j)
+    new_emp.append(' '.join(k))
 
-
-    print(' '.join(k[:-1]))
+print(new_emp)
 
 
 

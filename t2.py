@@ -45,5 +45,10 @@
 # print(s.isdigit())
 
 s = 'Python is Nice'
-str_list = s.rsplit(sep=' ', maxsplit=1)
+str_list = s.split()
 print(str_list)
+f = '^'.join(str_list)
+print(f)
+
+f2 = f.split('^')
+print(f2)
