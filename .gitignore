@@ -127,13 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-venv_test/pyvenv.cfg
-venv_test/Scripts/pythonw.exe
-venv_test/Scripts/python.exe
-venv_test/Scripts/pip3.exe
-venv_test/Scripts/pip3.10.exe
-venv_test/Scripts/pip.exe
-venv_test/Scripts/deactivate.bat
-venv_test/Scripts/Activate.ps1
-venv_test/Scripts/activate.bat
-venv_test/Scripts/activate
+/venv_test
