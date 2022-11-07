@@ -84,7 +84,37 @@ welcome('Anon')
 
 print('85=======================================================')
 
+dic3 = {
+    'name': 'pol',
+    'sername': 'lansky',
+    'age': '55',
+    'position': 'manager'
+}
+
+dic4 = { 'Alexandra' : 27,
+            'Shelina Gomez' : 22, 
+            'James' : 29, 
+            'Peterson' : 30 
+}
+
+dic33 = dic3.copy()
+
+for key, item in dic4.items():
+    dic33[key] = item
 
 
+print(dic33)
+print(dic3)
+print(dic4)
+
+dic4.update(shmeterson = 55, buetrson = 77)
+
+print(dic4)
+
+dic5 = {**dic1, **dic4}
+print('115==========================================')
+print(dic5)
 
 
+vv = {'dd': 5, 'ff':'l'}
+print(vv)
