@@ -66,7 +66,6 @@ for i in list(dic2):
     ddd.update(d33)
 print(ddd)
 
-print({ddd.update({i:dic2[i]}) for i in list(dic2)})
 
 print('63============================================')
 
@@ -134,6 +133,24 @@ for key, val in d.items():
 
 print(d)
 
+print(d.get('юля', d.setdefault('юля', 5)))  # Если имя Юля не встречается, то добавляем ее в словарь со значением 5
+
+print(d)
+print('===============================')
+
+f = d.setdefault('даша', 7)
+
+print(f)
+
+print(d)
+
+print('===============================')
 
 
+sk = d.keys()
 
+sk=list(sk)
+
+sk.sort()
+
+print(sk)
