@@ -118,3 +118,22 @@ print(dic5)
 
 vv = {'dd': 5, 'ff':'l'}
 print(vv)
+
+
+ls = ['петя', 'коля', 'вася', 'сережа']
+
+d = dict.fromkeys(ls, 1)
+
+print(d)
+d1 = {}
+
+for key, val in d.items():
+    val += 1
+    d[key] = val
+
+
+print(d)
+
+
+
+
