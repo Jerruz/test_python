@@ -67,8 +67,8 @@ def thesaurus_adv(*args):
     dic = {}
     print(args)
     for name in args:
-        dic.setdefault(name.split()[-1][:1], [])
-        dic[name.split()[-1][:1]].append(name)
+        dic.setdefault(name.split()[-1][:1], {name.split()[0][:1]:[]})
+        # dic[name.split()[-1][:1]].update({name.split()[0][:1]:name})
     print(dic)
     
 
