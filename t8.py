@@ -43,16 +43,16 @@
 
 '''
 
-def tes(*args):
-    dic = {}
-    print(args)
-    for name in args:
-        dic.setdefault(name[:1], [])
-        dic[name[:1]].append(name)
+# def tes(*args):
+#     dic = {}
+#     print(args)
+#     for name in args:
+#         dic.setdefault(name[:1], [])
+#         dic[name[:1]].append(name)
 
-    print(dic)
+#     print(dic)
 
-tes('Петя', 'Прокоп', 'Витя', 'Вася', 'Коля', 'Костя')
+# tes('Петя', 'Прокоп', 'Витя', 'Вася', 'Коля', 'Костя')
 
 print('\n===========================================================\n')
 
@@ -61,7 +61,8 @@ def thesaurus_adv(*args):
     print(args)
     for name in args:
         dic.setdefault(name.split()[-1][:1], {})
-        # dic[name.split()[-1][:1]].update({name.split()[0][:1]:name})
+        dic[name.split()[-1][:1]].update({name.split()[0][:1]:name})
+        
     print(dic)
     
 
