@@ -56,21 +56,3 @@
 
 print('\n===========================================================\n')
 
-def thesaurus_adv(*args):
-    dic = {}
-    print(args)
-    for name in args:
-        dic.setdefault(name.split()[-1][:1], {})
-        dic[name.split()[-1][:1]].update({name.split()[0][:1]:[]})
-
-        # dic[name.split()[-1][:1]][name.split()[0][:1]].append(name)  # нужно добавить еще один setdefault???
-        print()
-
-    print(name)    
-    print(dic)
-    
-
-
-
-
-thesaurus_adv('Иван Сергеев', 'Инна Серова', 'Петр Алексеев', 'Илья Иванов', 'Анна Савельева', 'Антон Сычев', 'Тимур Шипулин')
