@@ -8,8 +8,8 @@
 # pprint(sys.path)
 
 
-ls_f = ['петя', 'маша','вася']
 
-ns = 'Привет: {1:<15}, {0} '.format(*ls_f)
 
-print(ns)
+
+
+

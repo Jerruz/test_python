@@ -77,6 +77,31 @@ from weakref import proxy
 
 # print('=================================')
 
+# ls_f = ['петя', 'маша','вася']
+
+# ns = 'Привет: {1:<15}, {0} '.format(*ls_f)
+
+# print(ns)
+
+# print('=================================')
+
+# ls_f = ['петя', 'маша','вася']
+
+# ns = 'Привет: {0[0]}, {1[1]} ===== {2}'.format(ls_f, ls_f, ls_f[-1])  # отрицательный срез можно указать только через format
+
+# print(ns)
+
+# print('=================================')
+
+# import sys
+
+# nws = 'добрый день, {sys_m.platform} === {name[n1]}'.format(sys_m=sys, name = {'n1':'юля', 'n2':'маша', 'n3': 'сережа'})
+
+# print(nws)
+
+
+# print('=================================')
+
 # url = 'https://geekbrains.ru/teacher/lessons/79615'
 
 # print(url.split('/'))
