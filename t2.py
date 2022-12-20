@@ -44,11 +44,22 @@
 # # contains alphabets and spaces s = "Mo3 nicaG el l22er"
 # print(s.isdigit())
 
-s = 'Python is Nice'
-str_list = s.split()
-print(str_list)
-f = '^'.join(str_list)
-print(f)
+# s = 'Python is Nice'
+# str_list = s.split()
+# print(str_list)
+# f = '^'.join(str_list)
+# print(f)
 
-f2 = f.split('^')
-print(f2)
+# f2 = f.split('^')
+# print(f2)
+
+# s = 'qwer'
+
+# print(s.encode('latin-1'))
+
+# print(list(map(ord, s)))
+# print([c*2 for c in s])
+
+# print('s\tp\na\0m')
+# print('fool\'s')
+# print('sdf' 'etgdfvvfd34')
