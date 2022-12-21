@@ -102,6 +102,16 @@ from weakref import proxy
 
 # print('=================================')
 
+# res = '{0:.{1}f}'.format(1/3.0, 7)  # ????????????????????
+
+# print(res)
+
+
+# print(format(1.23256, '010.2f'))
+# print(format(1345325.334436, '015,.2f'))  # можно уазать разделитель групп разрядов в виде запятой
+
+# print('=================================')
+
 # url = 'https://geekbrains.ru/teacher/lessons/79615'
 
 # print(url.split('/'))
